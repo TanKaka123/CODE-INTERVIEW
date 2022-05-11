@@ -13,7 +13,7 @@ vector<char> maze[MAX];
 int path[MAX];
 bool visited[MAX][MAX];
 int row, col;
-vector <coor > entry;
+
 int dx[] = { 0,1,0,-1 };
 int dy[] = { -1,0,1,0 };
 
@@ -21,6 +21,8 @@ struct coor {
 	int x;
 	int y;
 };
+
+vector <coor > entry;
 
 void BFS()
 {
